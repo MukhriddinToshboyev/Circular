@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cotainer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url("./assets/background-1.png") no-repeat;
+}

@@ -1,0 +1,58 @@
+.about-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.abaut_item {
+  box-sizing: border-box;
+  width: 45%;
+  height: 15rem;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+
+.abaut_item_i {
+  padding-top: 1rem;
+  font-size: 4rem;
+  color: #0c344a;
+  line-height: 5rem;
+}
+
+.abaut_item_commodo {
+  font-family: serif;
+  font-size: 2.5rem;
+  color: #0c344a;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+}
+
+.abaut_item_text {
+  color: #62698f;
+  line-height: 1.5rem;
+}
+
+.abaut_item_A {
+  color: #62698f;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  display: flex;
+}
+
+.abaut_item_icon {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#with {
+  color: #22c5bb;
+}

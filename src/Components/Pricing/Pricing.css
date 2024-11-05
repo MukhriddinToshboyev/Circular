@@ -1,0 +1,175 @@
+.pricing_container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.pricing_header {
+  color: #0c344a;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.pricing_section_price {
+  display: flex;
+}
+/* Main section */
+
+.pricing_section {
+  padding: 2rem 2rem;
+  width: 45%;
+  height: 600px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 1rem;
+
+  /* padding: 20px; */
+  box-shadow: 0px 10px 20px rgb(5 54 77/ 20%);
+}
+
+.pricing_section_price {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.pricing_section_number {
+  background: #22c5bb1a;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pricing_section_3 {
+  color: #22c5bb;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 1.25rem;
+}
+
+.pricing_monthly {
+  display: inline-block;
+  padding-top: 1.25rem;
+  color: #0c344a;
+  font-size: 2rem;
+}
+
+.pricing_sum {
+  text-align: center;
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.dollor {
+  color: #0c344a;
+  font-size: 3rem;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.pricing_sum_99 {
+  color: #0c344a;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.pricing_sum_999 {
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+
+.pricing_sum_text {
+  color: #62698f;
+  font-size: 1.2rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.pricing_advantage {
+  display: flex;
+  font-size: 1.5rem;
+  height: 3.5rem;
+  padding-top: 1rem;
+}
+
+.pricing_check {
+  color: #22c5bb;
+  font-size: 1.7rem;
+  padding-right: 1rem;
+}
+
+.pricing_get {
+  color: #62698f;
+  text-align: start;
+  opacity: 70%;
+}
+
+.pricing_button {
+  display: flex;
+  justify-content: space-around;
+}
+.pricing_button_now {
+  width: 25rem;
+  height: 5rem;
+  background: #22c5bb;
+  border: 5px solid white;
+  border-radius: 6rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+/* Main aside */
+
+.pricing_aside {
+  padding: 3rem;
+  width: 45%;
+  height: 500px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgb(5 54 77/ 20%);
+  border-radius: 1rem;
+}
+
+.pricing_aside_img {
+  height: 9rem;
+}
+
+.pricing_aside_text {
+  color: #0c344a;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 1.5rem;
+}
+
+.pricing_aside_information {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  text-align: start;
+}
+
+.pricing_phone {
+  color: #62698f;
+  font-size: 1.2rem;
+  opacity: 70%;
+}
+
+.pricing_number {
+  color: #62698f;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.pricing_aside_request {
+  color: #22c5bb;
+  padding: 1.5rem;
+}
