@@ -1,6 +1,7 @@
 .team_cotainer {
   width: 100%;
   margin: 0 auto;
+  height: auto;
   background: linear-gradient(
     180deg,
     rgba(231, 244, 244, 0.25) 0%,
@@ -9,8 +10,10 @@
 }
 
 .team_container_div {
-  width: 1200px;
+  width: 75rem;
+  height: auto;
   margin: 0 auto;
+  padding-top: 9rem;
 }
 /* Team header */
 .team_header {
@@ -30,9 +33,14 @@
 }
 
 .t_section_imgs {
-  width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
 }
 
+.t_section_img {
+  width: 90%;
+}
 #img {
   padding-top: 1rem;
 }

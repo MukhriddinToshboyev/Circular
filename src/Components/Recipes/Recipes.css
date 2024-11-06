@@ -12,6 +12,7 @@
 /* Main recipes icon */
 
 .recipes_icon {
+  width: 10%;
   height: 46.625rem;
   position: absolute;
   padding-left: 1rem;
@@ -115,10 +116,6 @@
   padding-left: 0.5rem;
 }
 
-.recipes-icon {
-  width: 20px;
-  height: 20px;
-}
 /* Main section */
 
 .recipes_section_container {
