@@ -7,7 +7,7 @@
 }
 
 .contact__section {
-  width: 1200px;
+  width: 75rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -37,8 +37,6 @@
 
 .contact__section__icon {
   display: flex;
-
-  /* background: #ffffff0d; */
 }
 
 .contact__icon {
