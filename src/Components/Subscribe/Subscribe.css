@@ -27,20 +27,29 @@
   color: #ffffff;
   line-height: 2.5rem;
   padding-left: 1rem;
+  font-size: 2rem;
+}
+
+.subscribe_adress {
+  position: relative;
 }
 
 .subscribe_email {
-  width: 25rem;
+  width: 36.625rem;
   height: 4rem;
   border: 0.01px solid #ffffff80;
   border-radius: 6rem;
   background: #22c5bb;
   -webkit-text-fill-color: #ffffff;
   padding-left: 1rem;
+  padding-right: 11rem;
   font-size: 1.2rem;
 }
 
 .subscribe {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.7rem;
   width: 10rem;
   height: 3rem;
   border: 0.01px solid #ffffff80;

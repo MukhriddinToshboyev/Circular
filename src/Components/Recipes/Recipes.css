@@ -153,7 +153,6 @@
 .recipes_statistic {
   border: 0.1rem solid #62698f40;
   border-radius: 10%;
-  /* text-align: center; */
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   margin-bottom: 1.5rem;
@@ -172,6 +171,7 @@
 .recipes_statistic_number1 {
   color: #0c344a;
   font-weight: 100;
+  font-size: 2rem;
 }
 
 .recipes_statistic_text {
