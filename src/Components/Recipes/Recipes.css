@@ -26,7 +26,7 @@
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
-  border: 3px solid #22c5bb4d;
+  border: 0.18rem solid #22c5bb4d;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -53,14 +53,13 @@
   width: 1rem;
   height: 1rem;
   background-color: #22c5bb;
-  border: none;
   border-radius: 50%;
   opacity: 50%;
 }
 
 .recipes_arrow1 {
   /* background: green; */
-  border: 2px solid #22c5bb4d;
+  border: 0.2rem solid #22c5bb4d;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -70,7 +69,7 @@
 }
 
 .recipes_arrow2 {
-  border: 2px solid #22c5bb4d;
+  border: 0.125rem solid #22c5bb4d;
   background: #22c5bb;
   width: 3rem;
   height: 3rem;
@@ -82,7 +81,7 @@
 
 /* Main header */
 .recipes_header {
-  width: 1200px;
+  width: 75rem;
   margin: 0 auto;
   margin-top: 8rem;
   margin-bottom: 4rem;
@@ -119,7 +118,7 @@
 /* Main section */
 
 .recipes_section_container {
-  width: 1200px;
+  width: 75rem;
   margin: 0 auto;
   display: flex;
 }
@@ -152,7 +151,7 @@
 }
 
 .recipes_statistic {
-  border: 0.2px solid #62698f40;
+  border: 0.1rem solid #62698f40;
   border-radius: 10%;
   /* text-align: center; */
   padding-top: 1.5rem;
@@ -160,7 +159,7 @@
   margin-bottom: 1.5rem;
   margin-right: 2rem;
   width: 35%;
-  height: 100px;
+  height: 6.25rem;
 }
 
 .recipes_statistic_number {
