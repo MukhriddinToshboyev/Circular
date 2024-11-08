@@ -1,7 +1,8 @@
 .Container {
   width: 100%;
   margin: 0 auto;
-  background: url("../../assets/background-2.png") no-repeat;
+  border-radius: 0px 180px 500px 0px;
+  background: linear-gradient(to right, #22c5bb, #4ddc6b);
 }
 
 .header_container {
