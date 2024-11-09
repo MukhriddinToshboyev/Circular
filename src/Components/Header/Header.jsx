@@ -1,5 +1,7 @@
 import "./Header.css";
+
 import HeaderImage from "/src/assets/header-graphics.png";
+import HeaderScroll from "../../assets/Header-scroll-hint.svg";
 
 function Header() {
   return (
@@ -8,7 +10,7 @@ function Header() {
         <div className="header_container">
           {/* Main header */}
           <div className="header_vertikal_text">
-            <p className="vertikal_text">SCROLL DOWN</p>
+            <img src={HeaderScroll} alt="icon" />
           </div>
           <header className="header">
             <ul className="header_items">

@@ -40,6 +40,8 @@
 }
 
 .contact__icon {
+  width: 2.5rem;
+  height: 2.5rem;
   background: #ffffff0d;
   border-radius: 50%;
   padding: 0.5rem;

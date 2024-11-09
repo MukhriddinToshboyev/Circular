@@ -8,8 +8,16 @@
 .pricing_conytainer_div {
   width: 61rem;
   margin: 0 auto;
+  position: relative;
 }
 
+.pricing_controller_icon {
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: 5.5rem;
+}
+
+/* Main Header */
 .pricing_header {
   display: flex;
   justify-content: space-around;
@@ -61,6 +69,7 @@
   background: #22c5bb1a;
   width: 5rem;
   height: 5rem;
+  margin-right: 2.5rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -74,7 +83,7 @@
 }
 
 .pricing_monthly {
-  display: inline-block;
+  margin-right: 3rem;
   padding-top: 1.25rem;
   color: #0c344a;
   font-size: 2rem;

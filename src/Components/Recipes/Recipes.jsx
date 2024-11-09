@@ -1,60 +1,19 @@
 import "./Recipes.css";
 
+import ArrowIcon from "../../assets/arrow.svg";
+import SlidersIcon from "../../assets/Reciope-sliders.svg";
+import ArrowsIcon from "../../assets/Recipes-arrows.svg";
+import RecipesImg from "../../assets/Recipes-image2.png";
+
 function Recipes() {
   return (
     <div className="recipes_container">
       <div className="recipes_icon">
-        <div>
-          <div className="recipes_icon_1">
-            <img
-              className="recipes_icon_11"
-              width="20"
-              height="20"
-              src="https://img.icons8.com/ios/50/circled.png"
-              alt="circled"
-            />
-          </div>
-          <div className="recipes_icon_2">
-            <img
-              className="recipes_icon_22"
-              width="20"
-              height="20"
-              src="https://img.icons8.com/ios/50/circled.png"
-              alt="circled"
-            />
-            <img
-              className="recipes_icon_22"
-              width="50"
-              height="50"
-              src="https://img.icons8.com/ios/50/circled.png"
-              alt="circled"
-            />
-            <img
-              className="recipes_icon_22"
-              width="50"
-              height="50"
-              src="https://img.icons8.com/ios/50/circled.png"
-              alt="circled"
-            />
-          </div>
+        <div className="recipes_icon_sliders">
+          <img src={SlidersIcon} alt="icon" />
         </div>
-        <div>
-          <div className="recipes_arrow1">
-            <img
-              width="25"
-              height="25"
-              src="https://img.icons8.com/android/24/collapse-arrow.png"
-              alt="collapse-arrow"
-            />
-          </div>
-          <div className="recipes_arrow2">
-            <img
-              width="25"
-              height="25"
-              src="https://img.icons8.com/windows/32/expand-arrow--v1.png"
-              alt="expand-arrow--v1"
-            />
-          </div>
+        <div className="recipes_icon_arrows">
+          <img src={ArrowsIcon} alt=" icon" />
         </div>
       </div>
 
@@ -66,13 +25,7 @@ function Recipes() {
         <div className="recipes_header_text">
           <p className="r_header_item_view">
             View All Recipes
-            <img
-              className="r_header_item_text1"
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-glyphs/30/long-arrow-right.png"
-              alt="long-arrow-right"
-            />
+            <img src={ArrowIcon} alt="icon" className="reicpes_arrow_icon" />
           </p>
         </div>
       </header>
@@ -126,11 +79,7 @@ function Recipes() {
           </div>
         </div>
         <div className="recipes_img">
-          <img
-            className="recipes_img_i"
-            src="/src/assets/Recipes-image.png"
-            alt="img"
-          />
+          <img src={RecipesImg} alt="img" />
         </div>
       </section>
     </div>

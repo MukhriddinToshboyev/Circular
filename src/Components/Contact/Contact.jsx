@@ -1,5 +1,9 @@
 import "./Contact.css";
 
+import Facebook from "../../assets/facebook.svg";
+import Twitter from "../../assets/twitter.svg";
+import Dribbble from "../../assets/dribbble.svg";
+
 function Contact() {
   return (
     <div className="contact__container">
@@ -14,28 +18,9 @@ function Contact() {
           <p className="contact__home_i">Subscribe</p>
         </div>
         <div className="contact__section__icon">
-          <img
-            className="contact__icon"
-            width="50"
-            height="50"
-            src="https://img.icons8.com/ios-filled/50/facebook-new.png"
-            alt="facebook-new"
-          />
-
-          <img
-            className="contact__icon"
-            width="50"
-            height="50"
-            src="https://img.icons8.com/ios/50/twitter--v1.png"
-            alt="twitter--v1"
-          />
-          <img
-            className="contact__icon"
-            width="50"
-            height="50"
-            src="https://img.icons8.com/fluency-systems-filled/50/dribbble.png"
-            alt="dribbble"
-          />
+          <img src={Facebook} alt="icon" className="contact__icon" />
+          <img src={Twitter} alt="icon" className="contact__icon" />
+          <img src={Dribbble} alt="icon" className="contact__icon" />
         </div>
       </section>
       <footer className="contact-footer">

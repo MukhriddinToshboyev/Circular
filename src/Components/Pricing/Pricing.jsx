@@ -1,9 +1,17 @@
 import "./Pricing.css";
 
+import VectorIcon from "../../assets/Vector.svg";
+import PricingController from "../../assets/Pricing-controller.svg";
+import PricingSeparator from "../../assets/Pricing-separator.svg";
+
 function Pricing() {
   return (
     <div className="pricing_container">
       <div className="pricing_conytainer_div">
+        <div className="pricing_controller_icon">
+          <img src={PricingController} alt="icon" />
+        </div>
+
         <header className="pricing_header">
           <h1 className="pricing_header_text">Affordable Prices</h1>
         </header>
@@ -17,7 +25,7 @@ function Pricing() {
                 <h1 className="pricing_monthly">Monthly Recipes</h1>
               </div>
               <div>
-                <hr />
+                <img src={PricingSeparator} alt="icon" />
               </div>
               <div className="pricing_sum">
                 <p className="dollor">$</p>
@@ -29,23 +37,23 @@ function Pricing() {
                 <p className="pricing_sum_text">/ Per Month</p>
               </div>
               <div className="pricing_advantage">
-                <p className="pricing_check">✔</p>
+                <img src={VectorIcon} alt="icon" className="pricing_check" />
                 <p className="pricing_get">
                   Get tasty, healthy and unique recipes every <br /> month
                 </p>
               </div>
               <div className="pricing_advantage">
-                <p className="pricing_check">✔</p>
+                <img src={VectorIcon} alt="icon" className="pricing_check" />
                 <p className="pricing_get">
                   Weekly sessions with our nutritionists
                 </p>
               </div>
               <div className="pricing_advantage">
-                <p className="pricing_check">✔</p>
+                <img src={VectorIcon} alt="icon" className="pricing_check" />
                 <p className="pricing_get">Advanced nutrion plans</p>
               </div>
               <div className="pricing_advantage">
-                <p className="pricing_check">✔</p>
+                <img src={VectorIcon} alt="icon" className="pricing_check" />
                 <p className="pricing_get">Paperback nutrition book</p>
               </div>
               <div className="pricing_button">
@@ -69,11 +77,11 @@ function Pricing() {
               <div className="pricing_aside_information">
                 <div className="pricing_aside_phone">
                   <p className="pricing_phone">Phone Number</p>
-                  <p className="pricing_number">90-011-74-94</p>
+                  <p className="pricing_number">1-820-9320323</p>
                 </div>
                 <div className="pricing_aside_phone">
                   <p className="pricing_phone">Email Address </p>
-                  <p className="pricing_number">atoshboyev331@gmail.com</p>
+                  <p className="pricing_number">hello@circular.com</p>
                 </div>
               </div>
               <hr />
